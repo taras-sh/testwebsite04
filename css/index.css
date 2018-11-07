@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Vidaloka');
+
+body {
+    max-width: 980px;
+    margin: auto;
+    background-color: #f2f2f2;
+}
+
+#logo {
+    font-family: 'Vidaloka', serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px auto;
+}
+
+header .menu {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+header .menu li {
+    display: inline;
+}
+
+header .menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-family: Georgia;
+}
+
+header .menu li a:hover {
+    text-decoration: underline;
+}
+
+
+
+h2 {
+    font-family: Georgia;
+    text-align: center;
+    margin-top: 7%;
+}
+
+#Olesyas-photo{
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+#Olesyas-photo img {
+    width: 100%;
+}
+
+.about-me {
+    display: block;
+    margin: 0 auto;
+    padding: 1%;
+    font-family: Georgia;
+}
+
+.portfolio {
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 1%;
+    border: 3px solid #808080;
+    text-align: center;
+}
+
+.portfolio img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 266px;
+}
+
+.prices-wedding {
+    display: block;
+    margin: 10px auto;
+    padding: 1%;
+    max-width: 400px;
+    border: 3px solid #808080;
+    text-align: center;
+}
+
+form {
+    margin: 3% auto;
+    max-width: 400px;
+    border: solid #808080;
+    padding: 3%;
+}
+
+label {
+    display: block;
+    padding-top: 2%;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+}
+
+#sendButton {
+    width: auto;
+    margin: 3% 3% 0 80%;
+    cursor: pointer;
+}
+
+#sendButton:hover {
+    text-decoration: underline;
+}
+
+
+#contact-info {
+    text-align: center;
+}
+
+.social-networks {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+@media (min-width: 500px) {
+    header nav {
+        display: flex;
+    }
+    header .header-logo {
+        margin: 0 2%;
+    }
+    header .menu {
+        flex: 1;
+        align-items: center;
+    }
+    header .menu li {
+        margin: 0 2%;
+    }
+    .photos {
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+    }
+
+    .prices {
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+    }
+    .prices-wedding {
+        max-width: 280px;
+    }
+
+}
