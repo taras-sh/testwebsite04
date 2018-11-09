@@ -5,7 +5,13 @@ body {
     margin: auto;
     background-color: #f2f2f2;
 }
-
+#toTop{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	cursor: pointer;
+	display: none;
+}
 #logo {
     font-family: 'Vidaloka', serif;
     font-size: 3rem;
